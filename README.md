@@ -1,11 +1,10 @@
 # Computer_Vision-CNN
 Computer Vision using CNN
 
-------------Introduction------------------------------------------------------------------
-
+## Introduction
 Algorithm used : Convolution Nueral Network -- "Inception v3"
 
-------------Steps to install and run the algorithm-----------------------------------------
+## Steps to install and run the algorithm
 
 1. Install Docker (installing Tensorflow using Docker)
 2. Download Train Data (Folder_name: task). Folder 'task' contains subfolders 'cats' and 'dogs'
@@ -30,7 +29,7 @@ Algorithm used : Convolution Nueral Network -- "Inception v3"
 
 7. Classifciation: A new csv file is generated "/tf_files/sample_submission.csv" having all the 'test' images with labels (1: Dog, 0: cat)
 
-------------Only Testing Steps-----------------------------------------
+## Only Testing Steps
 
 1. Start Docker with local files available (linking Tensorflow Image)
 	$ sudo docker run -it -v $HOME/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel 
@@ -42,3 +41,7 @@ Algorithm used : Convolution Nueral Network -- "Inception v3"
 
 4. Classification: A new csv file is generated "/tf_files/sample_submission.csv" having all the 'test' images with labels (1: Dog, 0: cat)
 5. Sort the "/tf_files/sample_submission.csv" by column 'id'
+
+## Download the whole project with dataset
+
+https://drive.google.com/open?id=0B--hIR1DX43XY0tidm1BZnE5ODA
