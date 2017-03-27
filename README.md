@@ -2,7 +2,8 @@
 Computer Vision using CNN
 
 ## Introduction
-Algorithm used : Convolution Nueral Network -- "Inception v3"
+Algorithm used : Convolution Nueral Network -- "Inception v3".
+
 Task: Image recognition of “Dogs vs. Cats” using Convolutional Neural Network in python on Docker over a training dataset of 25000 images and test dataset of 12500 images.
 ## Steps to install and run the algorithm
 
